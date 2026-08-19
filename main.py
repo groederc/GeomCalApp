@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import geolib as geo
 # ---------------------------------------------------------------------------
 def ejecutar(edited_df):
-    n = edited_df.shape[0]
+    #n = edited_df.shape[0]
+    n = 30
     st.markdown(f"Número de filas en la tabla {n}")
     if n == 0 or n == 1: return
     x = npy.zeros(n)
