@@ -322,7 +322,7 @@ def main():
         "Introducir las coordenadas de los vértices de la figura en sentido"
         " antihorario.\nPara cerrar la figura, incluir al final el primer"
         " vértice.\nEl programa automáticamente calcula los valores al ir"
-        " introduciendo datos.\n\nAutores:\n    Dr. Guillermo M. Roeder Carbo"
+        " introduciendo datos.\n\nAutor:\n    Dr. Guillermo M. Roeder Carbo"
     )
 
     st.markdown("### Tabla de coordenadas de vértices de la figura")
