@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 import geolib as geo
 # ---------------------------------------------------------------------------
 def ejecutar(edited_df):
-    #n = edited_df.shape[0]
-    n = 30
+    n = edited_df.shape[0]
     st.markdown(f"Número de filas en la tabla {n}")
     if n == 0 or n == 1: return
     x = npy.zeros(n)
@@ -14,8 +13,8 @@ def ejecutar(edited_df):
 
     # Captura las coordenadas x, y.
     for i in range(n):
-        x[i] = edited_df.loc[i][0]
-        y[i] = edited_df.loc[i][1]
+        x[i] = edited_df.loc[i,0]
+        y[i] = edited_df.loc[i,1]
         #st.markdown(f"Xi:{x[i]}")
         #st.markdown(f"Yi:{y[i]}")
     
